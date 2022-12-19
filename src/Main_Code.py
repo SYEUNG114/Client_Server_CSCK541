@@ -11,7 +11,7 @@ The encrypted file will then be decrypted using the same key (i.e., symmetric en
 in a sepa|rate file.
 Finally, the file contents will be printed out on screen as well.
 
-Please note that, while this programme can be run on its own and perform the above-mentioned tasks, its functions can be
+Please note that, while this programme can be executed on its own and perform the above-mentioned tasks, its functions can be
 called from within a Server-Client code.
 """
 
