@@ -86,5 +86,5 @@ By developing this programme, the following key contributions are made:
   - While some `try... except...` blocks are used inside some functions, some more high-level exceptions are defined for when the function is called. 
 
 ## Copyright
-Copyright 2022 Masoud Naseri and Kim Wa Yeung Licensed under the MIT License, (the "License");
+Copyright 2022 "Masoud Naseri" and "Kim Wa Yeung" Licensed under the MIT License, (the "License");
 you may not use this file except in compliance with the License.
