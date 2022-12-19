@@ -1,4 +1,4 @@
-# Client_Server Network Programming - CSCK541 - October 2022 A - Masoud Naseri and Kim Wa Yeung (Group B)
+# Client_Server Network Programming - CSCK541 - October 2022 A - Masoud Naseri and Kim Wa Yeung
 
 These sets of programmes explore (i) serialisation using json and pickle, (ii) creating text files, (iii) encrypting and decrypting text files, and (iv) creating a Client-Server programme using which the serialised data and the encrypted text file can be sent by Client to the Server on a local machine.
 ## Table of Contents
