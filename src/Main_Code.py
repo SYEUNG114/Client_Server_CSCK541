@@ -1,4 +1,4 @@
-"""This programme receives some data about a student, his/her module's grades and course name.
+"""This programme receives some data about a student, his/her module's grades and his/her course name.
 These data are then stored in a dictionary and serialised using json and pickle methods.
 These are defined in separate functions.
 This programme also creates a text file.
