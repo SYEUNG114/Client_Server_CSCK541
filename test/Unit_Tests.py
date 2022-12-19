@@ -38,6 +38,9 @@ class Test_Main_Code(unittest.TestCase):
         self.assertEqual(type(Key), bytes)
 
     def test_encrypt_text_file(self):
+        """This function tests the functionality of the test_encrypt_text_file function and ensures a file can be
+        encrypted correctly
+        """
         Main_Code.write_key()
         Key = Main_Code.load_key()
         with open('temporary_test_file.txt', 'w') as f:
