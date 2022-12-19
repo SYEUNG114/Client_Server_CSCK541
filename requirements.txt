@@ -1,0 +1,5 @@
+certifi
+cffi==1.15.1
+cryptography==38.0.4
+pycparser==2.21
+wincertstore==0.2
