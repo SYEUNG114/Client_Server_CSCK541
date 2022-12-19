@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module Client_Code</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>Client_Code</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Cmna017%5Conedrive%20-%20the%20university%20of%20liverpool%5Conline%20msc%20course%5Cmodules%5C2-csck541%20software%20development%20in%20practice%20%2825%20october%202022%29%5Cprojects%5Cclient_server_csck541%5Csrc%5Cclient_code.py">c:\users\mna017\onedrive - the university of liverpool\online msc course\modules\2-csck541 software development in practice (25 october 2022)\projects\client_server_csck541\src\client_code.py</a></font></td></tr></table>
+    <p><tt>This&nbsp;programme&nbsp;runs&nbsp;the&nbsp;Client&nbsp;code&nbsp;of&nbsp;a&nbsp;Client-Server&nbsp;socket&nbsp;programming&nbsp;task.<br>
+The&nbsp;data&nbsp;are&nbsp;created&nbsp;and&nbsp;prepared&nbsp;using&nbsp;the&nbsp;functions&nbsp;available&nbsp;in&nbsp;"Main_Code.py"&nbsp;module.<br>
+In&nbsp;particular,&nbsp;this&nbsp;programme&nbsp;generates&nbsp;a&nbsp;dictionary&nbsp;where&nbsp;some&nbsp;data&nbsp;of&nbsp;a&nbsp;student&nbsp;is&nbsp;stored.<br>
+The&nbsp;dictionary&nbsp;is&nbsp;later&nbsp;serialised&nbsp;using&nbsp;pickle&nbsp;and&nbsp;json.<br>
+The&nbsp;pickled&nbsp;serialised&nbsp;dictionary&nbsp;is&nbsp;then&nbsp;sent&nbsp;to&nbsp;the&nbsp;server.<br>
+The&nbsp;json&nbsp;serialised&nbsp;dictionary&nbsp;is&nbsp;used&nbsp;to&nbsp;generate&nbsp;a&nbsp;text&nbsp;file.<br>
+The&nbsp;content&nbsp;of&nbsp;the&nbsp;text&nbsp;file&nbsp;is&nbsp;basically&nbsp;the&nbsp;json&nbsp;serialised&nbsp;dictionary.<br>
+The&nbsp;file&nbsp;is&nbsp;encrypted&nbsp;before&nbsp;sending&nbsp;it&nbsp;to&nbsp;the&nbsp;server.&nbsp;The&nbsp;server&nbsp;later&nbsp;decrypt&nbsp;the&nbsp;file&nbsp;and&nbsp;store&nbsp;the&nbsp;content.</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="Main_Code.html">Main_Code</a><br>
+</td><td width="25%" valign=top><a href="os.html">os</a><br>
+</td><td width="25%" valign=top><a href="socket.html">socket</a><br>
+</td><td width="25%" valign=top><a href="sys.html">sys</a><br>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-main"><strong>main</strong></a>()</dt></dl>
+ <dl><dt><a name="-send_to_server"><strong>send_to_server</strong></a>(my_text_file, json_data, pickle_data)</dt><dd><tt>This&nbsp;function,&nbsp;sends&nbsp;the&nbsp;passed&nbsp;parameters&nbsp;to&nbsp;the&nbsp;server.&nbsp;While&nbsp;pickled&nbsp;data&nbsp;is&nbsp;sent&nbsp;to&nbsp;the&nbsp;server&nbsp;as&nbsp;a&nbsp;variable,<br>
+json_data&nbsp;are&nbsp;stored&nbsp;in&nbsp;a&nbsp;text&nbsp;file.&nbsp;The&nbsp;file&nbsp;is&nbsp;encrypted&nbsp;and&nbsp;then&nbsp;sent&nbsp;to&nbsp;the&nbsp;server.<br>
+After&nbsp;each&nbsp;set&nbsp;of&nbsp;data&nbsp;is&nbsp;sent&nbsp;to&nbsp;the&nbsp;server,&nbsp;the&nbsp;client&nbsp;receives&nbsp;a&nbsp;confirmation&nbsp;from&nbsp;the&nbsp;server.<br>
+The&nbsp;confirmation&nbsp;messages&nbsp;are&nbsp;displayed&nbsp;on&nbsp;the&nbsp;screen.<br>
+:param&nbsp;my_text_file:<br>
+:param&nbsp;json_data:&nbsp;A&nbsp;dictionary&nbsp;that&nbsp;is&nbsp;serialised&nbsp;using&nbsp;json,&nbsp;Type:&nbsp;str<br>
+:param&nbsp;pickle_data:&nbsp;A&nbsp;dictionary&nbsp;serialised&nbsp;using&nbsp;pickle,&nbsp;Type:&nbsp;byte<br>
+:return:&nbsp;None</tt></dd></dl>
+</td></tr></table>
+</body></html>
